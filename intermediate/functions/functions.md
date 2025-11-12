@@ -157,3 +157,29 @@ In C programming, a function pointer is a variable that stores the memory addres
             return 0;
         }
     ```
+---
+
+##  🔁 RECURSIONS
+
+**Recursion** is a programming technique where a function calls itself repeatedly until a specific base condition is met. A function that performs such self-calling behavior is known as a recursive function, and each instance of the **function calling** itself is called a **recursive call**.
+
+-   ##  🍄 Recursion function
+
+    A recursive function is a function that solves a problem by calling itself on a smaller subproblem. It typically consists of two main parts:
+
+    **Base Case** – the condition under which the recursion stops.  
+
+    **Recursive Case** – where the function calls itself with modified arguments, gradually approaching the base case.          
+
+    ```Example
+        returntype function(parameters) {
+        
+        // base case
+        if (base condition) {
+            return base value;
+        }
+
+        // recursive case
+        return recursive expression involving function(modified parameters);
+    }
+    ```
